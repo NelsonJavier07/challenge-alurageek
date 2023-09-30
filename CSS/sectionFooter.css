@@ -55,6 +55,11 @@ form{
     border-radius: 8px;
     background-color: #2A7AE4;
     color: #ffff;
+    transition: 0.3s;
     box-shadow: 2px 3px 5px #30336b;
     cursor: pointer;
+}
+.formulario__footer-boton:active{
+    transform: scale(0.9);
+    box-shadow: none;
 }

@@ -43,35 +43,27 @@ header{
     border-radius: 0 10px 10px 0;
     margin: auto;
     text-align: center;
+    transition: 0.3s;
     /*position: absolute;*/
+}
+.navigationBar__buscador button:active{
+    transform: scale(0.9);
 }
 
 .btnLogin {
     height: 40px;
     width: 140px;
     border: 0;
-    background-image:linear-gradient(120deg, #34495e, #9b59b6, #3498db);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4px;
+    background-color: #2A7AE4;
     cursor: pointer;
+    box-shadow: 2px 3px 5px #30336b;
     transition: 0.3s;
     color: #ffff;
     font-size: 1.5rem;
     border-radius: 8px;
 }
 
-.btnLogin span{
-    background-color: #111;
-    padding: 16px 24px;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-.btnLogin:hover span{
-    background: none;
-}
-
 .btnLogin:active {
     transform: scale(0.9);
+    box-shadow: none;
 }
