@@ -1,0 +1,15 @@
+.ofertas{
+    height: 3rem;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ofertas__nintendo{
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 20px 0 5px;
+    text-align: center;
+}
