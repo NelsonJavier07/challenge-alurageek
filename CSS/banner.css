@@ -1,0 +1,16 @@
+.banner{
+    width: 100%;
+    height: 352px;
+    background-image: url(../img/banner_fondo.png);
+}
+
+.banner__titulo{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61.05px;
+    position: relative;
+    margin-top: 20px;
+    text-align:right;
+    padding: 5px;
+}

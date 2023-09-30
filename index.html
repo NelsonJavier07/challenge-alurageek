@@ -1,20 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/sports_esports_black_24dp-1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/navigationBar.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/banner.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/sectionProduct.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/sectionFooter.css" type="text/CSS">
+    <link rel="stylesheet" href="./CSS/sectionCopyright.css" type="text/CSS">
     <title>Tienda AluraGeek</title>
 </head>
 <body>
+                                    <!-- Barra de Navegación -->
+    <header>
         <nav class="navigationBar">
-
+            <div class="navigationBar__logo">
+                <img class="navigationBar-joystick" src="./img/sports_esports_black_24dp 1.svg" alt="logo AluraGeek">
+                <img class="navigationBar-texto" src="./img/Texto.svg" alt="AluraGeek">
+            </div>
+            <div class="navigationBar__buscador">
+                <input class="navigationBar__buscador-texto" type="text" placeholder="¿Que deseas buscar?">
+                <button><img src="./img/Icone.svg" alt="lupa"></button>
+            </div>
+            <div class="navigationBar__Login">
+                <button class="btnLogin">
+                    <span>LOGIN</span>
+                </button>
+            </div>
         </nav>
-    <section>
-
-    </section>
-
+    </header>
+                                        <!-- Banner -->
+    <div class="banner">
+        <h1 class="banner__titulo">Tienda AluraGeek</h1>
+    </div>
+    <main>
+                                        <!-- Productos -->
+        <section>
+            <h3>Star Wars</h3>
+            <div class="card">
+                <div class="starWardCard">
+                    <img src="./img/starWars1.jpg" alt="Star War">
+                    <span>Producto XTZ</span>
+                    <h5>$ 60</h5>
+                    <a href="">Ver mas</a>
+                </div>
+                <div class="starWardCard">
+                    <img src="./img/starWars2.jpg" alt="Star War personaje">
+                    <span>Producto XTZ</span>
+                    <h5>$ 60</h5>
+                    <a href="">Ver mas</a>
+                </div>
+                <div class="starWardCard">
+                    <img src="./img/starWars3.jpg" alt="Star War personaje">
+                    <span>Producto XTZ</span>
+                    <h5>$ 60</h5>
+                    <a href="">Ver mas</a>
+                </div>
+                <div class="starWardCard">
+                    <img src="./img/starWars4.jpg" alt="Star War personaje">
+                    <span>Producto XTZ</span>
+                    <h5>$ 60</h5>
+                    <a href="">Ver mas</a>
+                </div>
+                <div class="starWardCard">
+                    <img src="./img/starWars5.jpg" alt="Star War personaje">
+                    <span>Producto XTZ</span>
+                    <h5>$ 60</h5>
+                    <a href="">Ver mas</a>
+                </div>
+                <div class="starWardCard">
+                    <img src="./img/starWars6.jpg" alt="Star War personaje">
+                    <span>Producto XTZ</span>
+                    <h5>$ 60</h5>
+                    <a href="">Ver mas</a>
+                </div>
+            </div>
+        </section>
+    </main>
+                                        <!--Footer-->
         <footer class="footer">
-
+            <div class="aluraLogo__footer">
+                <img class="aluraLogo__footer-joystick" src="./img/sports_esports_black_24dp 1.svg" alt="aluraGeek logo">
+                <img class="aluraLogo__footer-texto" src="./img/Texto.svg" alt="aluraGeek">
+            </div>
+            <div class="menu__footer">
+                <ul class="menu__footer-lista">
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Programa de fidelidad</a></li>
+                    <li><a href="#">Nuestras Tiendas</a></li>
+                    <li><a href="#">Quiero ser franquiciado</a></li>
+                    <li><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <div class="formulario__footer">
+                <h5 class="formulario__footer-titulo">Contactanos</h5>
+                <form action="">
+                    <input class="formulario__footer-texto" type="text" placeholder="Nombre">
+                    <textarea class="formulario__footer-mensaje" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                    <button class="formulario__footer-boton" type="submit">Enviar mensaje</button>
+                </form>
+            </div>
         </footer>
+        <div class="copyrightBar">
+            <p class="copyrightBar__texto">Cerado por Nelson en concepto de Challenge para Alura ONE</p>
+        </div>
 </body>
 </html>

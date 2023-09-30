@@ -1,0 +1,16 @@
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.starWardCard{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.starWardCard img{
+    width: 176px;
+    height: 174px;
+}

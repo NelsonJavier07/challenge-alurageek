@@ -1,0 +1,60 @@
+.footer{
+    height: 368px;
+    width: 100%;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aluraLogo__footer{
+
+}
+
+.menu__footer-lista{
+    list-style: none;
+    
+}
+li{
+    padding-bottom: 10px;
+}
+li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.formulario__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+.formulario__footer-texto{
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 8px;
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px #30336b;
+}
+.formulario__footer-mensaje{
+    width: 100%;
+    margin-bottom: 8px;
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px #30336b;
+}
+
+.formulario__footer-boton{
+    height: 1.8rem;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #2A7AE4;
+    color: #ffff;
+    box-shadow: 2px 3px 5px #30336b;
+    cursor: pointer;
+}

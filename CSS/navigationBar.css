@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    padding-top: 15px;
+}
+
+.navigationBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigationBar-joystick{
+    color: #00ff65;
+    padding-top: 1rem;
+}
+/* .navigationBar-texto{
+    
+} */
+.navigationBar__buscador{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navigationBar__buscador-texto{
+    height: 60%;
+    width: 85%;
+    border-style: none;
+    border-radius: 12px 0px 0px 12px;
+    background-color: #d3d3d3;
+    font-size: 1.5rem;
+    padding: 10px;
+    padding-right: 35px;
+}
+
+.navigationBar__buscador button{
+    height: 49px;
+    width: 40px;
+    background-color: #d3d3d3;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+    margin: auto;
+    text-align: center;
+    /*position: absolute;*/
+}
+
+.btnLogin {
+    height: 40px;
+    width: 140px;
+    border: 0;
+    background-image:linear-gradient(120deg, #34495e, #9b59b6, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #ffff;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+
+.btnLogin span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.btnLogin:hover span{
+    background: none;
+}
+
+.btnLogin:active {
+    transform: scale(0.9);
+}
