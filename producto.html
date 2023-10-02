@@ -15,80 +15,43 @@
     <link rel="stylesheet" href="./CSS/sectionProduct.css" type="text/css">
     <link rel="stylesheet" href="./CSS/sectionFooter.css" type="text/CSS">
     <link rel="stylesheet" href="./CSS/sectionCopyright.css" type="text/CSS">
-    <title>Tienda AluraGeek</title>
+    <title>Producto Seleccionado</title>
 </head>
 <body>
-                                    <!-- Barra de Navegación -->
+                                <!-- Header -->
     <header>
         <nav class="navigationBar">
             <div class="navigationBar__logo">
                 <img class="navigationBar-joystick" src="./img/sports_esports_black_24dp 1.svg" alt="logo AluraGeek">
                 <img class="navigationBar-texto" src="./img/Texto.svg" alt="AluraGeek">
             </div>
-            <div class="navigationBar__buscador">
+            <!-- <div class="navigationBar__buscador">
                 <input class="navigationBar__buscador-texto" type="text" placeholder="¿Que deseas buscar?">
                 <button><img src="./img/Icone.svg" alt="lupa"></button>
-            </div>
+            </div> -->
             <div class="navigationBar__Login">
-                <button class="btnLogin"><a href="./FormularioLogin.html">LOGIN</a></button>
+                <button class="btnLogin">LOGIN</button>
             </div>
         </nav>
     </header>
-                                        <!-- Banner -->
-    <div class="banner">
-        <h1 class="banner__titulo">Tienda AluraGeek</h1>
-    </div>
-    <div class="ofertas">
-        <a class="ofertas__nintendo" href="#A" target="_blank">
-            <p><i class="fa-solid fa-gamepad fa-2x"></i> 20% OFF Nintendo Switch</p>
-        </a>
-        <a  class="ofertas__nintendo" href="#B" target="_blank">
-            <p><i class="fa-solid fa-dolly fa-2x"></i> 15% OFF Saga Star War</p>
-        </a>
+    <div class="botonVolver">
+        <button class="">
+            <i class="fa-solid fa-arrow-left fa-2x"><a href="./index.html">Volver al listado</a></i>
+        </button>
     </div>
     <main>
-                                        <!-- Productos -->
-        <section>
-            <h3>Star Wars</h3>
-            <div class="card">
-                <div class="productCard">
-                    <img src="./img/starWars1.jpg" alt="Star War">
-                    <span>Producto XTZ</span>
-                    <h5>$ 80,00</h5>
-                    <a href="./producto.html">Ver producto</a>
-                </div>
-                <div class="productCard">
-                    <img src="./img/starWars2.jpg" alt="Star War personaje">
-                    <span>Producto XTZ</span>
-                    <h5>$ 60,00</h5>
-                    <a href="#">Ver producto</a>
-                </div>
-                <div class="productCard">
-                    <img src="./img/starWars3.jpg" alt="Star War personaje">
-                    <span>Producto XTZ</span>
-                    <h5>$ 65,00</h5>
-                    <a href="#">Ver producto</a>
-                </div>
-                <div class="productCard">
-                    <img src="./img/starWars4.jpg" alt="Star War personaje">
-                    <span>Producto XTZ</span>
-                    <h5>$ 60,00</h5>
-                    <a href="#">Ver producto</a>
-                </div>
-                <div class="productCard">
-                    <img src="./img/starWars5.jpg" alt="Star War personaje">
-                    <span>Producto XTZ</span>
-                    <h5>$ 60,00</h5>
-                    <a href="">Ver producto</a>
-                </div>
-                <div class="productCard">
-                    <img src="./img/starWars6.jpg" alt="Star War personaje">
-                    <span>Producto XTZ</span>
-                    <h5>$ 60,00</h5>
-                    <a href="">Ver mas</a>
-                </div>
+        <section class="product">
+            <div class="product__Image">
+                <img src="./img/starWars1.jpg" alt="Imagen del producto">
             </div>
-            <h3>Mario Brothers</h3>
+            <div class="product__characteristics">
+                <h3>Nombre del Producto</h3>
+                <h4>$ 65,00</h4>
+                <p>Aca va una pequeña descripción del producto</p>
+            </div>
+        </section>
+        <section class="productRelated">
+            <h3>Productos Relacionados</h3>
             <div class="card">
                 <div class="productCard">
                     <img src="./img/1-amiibo-bowser-super-mario.jpg" alt="personaje Mario Bros">
@@ -128,8 +91,9 @@
                 </div>
             </div>
         </section>
+
     </main>
-                                        <!--Footer-->
+                                            <!--Footer-->
         <footer class="footer">
             <div class="aluraLogo__footer">
                 <img class="aluraLogo__footer-joystick" src="./img/sports_esports_black_24dp 1.svg" alt="aluraGeek logo">
@@ -157,5 +121,7 @@
         <div class="copyrightBar">
             <p class="copyrightBar__texto">Creado por Nelson en concepto de Challenge para Alura ONE 2023</p>
         </div>
+        <main>
+
 </body>
 </html>
